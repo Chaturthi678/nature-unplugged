@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Outdoor Escape🌿</title>
+
+    <style>
+      body {
+        background-image: conic-gradient(
+          from 180deg at 50% 50%,
+          rgb(207, 229, 168) 0%,
+          rgb(169, 224, 225) 30%,
+          hsl(29, 41.4%, 80.6%) 56%,
+          #def4f3 80.75%,
+          rgb(234, 229, 158) 100%
+        );
+      }
+      h1 {
+        text-align: center;
+        font-size: 35px;
+      }
+      h2 {
+        text-align: center;
+        font-size: 25px;
+      }
+      img {
+        max-width: 100%;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid#b46760;
+        font-size: 20px;
+        border-radius: 28px;
+        size: 20px;
+        padding: 21px 35px;
+        transition: all 150ms ease-in-out;
+      }
+      button:hover {
+        background: #b46760;
+        color: white;
+        cursor: pointer;
+      }
+      .des {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      footer {
+        text-align: center;
+        margin-top: 10px 0;
+        font-size: 18px;
+      }
+      .theme_button {
+        font-size: 20px;
+        font-weight: bold;
+        background: #b1d2db;
+        color: black;
+        padding: 5 8px;
+      }
+      .theme_button:hover {
+        background: rgb(227, 225, 225);
+        color: black;
+        cursor: pointer;
+      }
+      .trekking_intro_picture {
+        border-radius: 10px;
+        transition: 150ms ease-in-out;
+      }
+      .trekking_intro_picture:hover {
+        filter: contrast(70%);
+        transform: scale(1.2);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        padding: 5px;
+      }
+      .grid img {
+        width: 150%;
+        border-radius: 8px;
+        object-fit: cover;
+        transition: all 150ms ease-in-out;
+      }
+      .grid img:hover {
+        transform: scale(1.4);
+      }
+      .dark {
+        background-color: rgb(99, 22, 123);
+        background-image: linear-gradient(
+          315deg,
+          rgb(52, 0, 43) 0%,
+          #1b1b1b 74%
+        );
+        color: white;
+      }
+      .dark .container {
+        background: rgba(255, 255, 255, 0.1);
+      }
+      .dark a {
+        color: #b46760;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme_button">CHANGE THEME</button>
+    <div class="container">
+      <h1>🌿Nature Unplugged</h1>
+      <h2>My favourite hobby</h2>
+      <a
+        href="https://en.wikipedia.org/wiki/Backpacking_(hiking)"
+        target="_blank">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/159/456/original/night_chill.jpg?1741269639"
+          alt=""
+          class="trekking_intro_picture" />
+      </a>
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/159/454/original/mountain_adventure.jpeg?1741269621"
+          alt="" />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/159/455/original/with_water.jpg?1741269629"
+          alt="" />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/159/457/original/men_with_adventure.jpg?1741269650"
+          alt="" />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/159/462/original/photography.jpg?1741272689"
+          alt=""
+          height="100%" />
+      </div>
+
+      <p class="des">
+        Trekking is an adventurous activity that involves walking long distances
+        through rugged terrains. More challenging than regular hiking, it offers
+        a chance to explore nature, experience different cultures, and achieve
+        personal growth. Whether for adventure, fitness, or relaxation, trekking
+        provides a unique and immersive outdoor experience.
+
+        <br /><br />
+        📖
+        <a href="https://en.wikipedia.org/wiki/Backpacking_(hiking)"
+          ><strong> Read on Wikipedia</strong></a
+        >
+      </p>
+    </div>
+    <footer>
+      <p>
+        This project was coded by
+        <a href="#">Chaturthi Gavande</a> and is
+        <a href="#">on Github</a>
+      </p>
+    </footer>
+    <script>
+      function call() {
+        let body = document.querySelector("body");
+        body.classList.toggle("dark");
+      }
+      let themebutton = document.querySelector(".theme_button");
+      themebutton.addEventListener("click", call);
+    </script>
+  </body>
+# Outdoor Escape🌿
+
+This project is a simple HTML and CSS webpage showcasing the beauty of nature and the joy of trekking. It includes a theme switcher button to toggle between light and dark modes.
+
+## Features
+
+- Responsive design
+- Theme switcher (light/dark mode)
+- Image gallery with hover effects
+- External links to Wikipedia for more information
+
+## How to Use
+
+1. Clone the repository.
+2. Open `Final_project.html` in your web browser.
+3. Click the "CHANGE THEME" button to toggle between light and dark modes.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Author
+
+This project was coded by [Chaturthi Gavande](https://github.com/Chaturthi678/nature-unplugged) and is available on [GitHub](https://github.com/Chaturthi678/nature-unplugged).
+
+## Video
+
+Watch the project video [here](https://vimeo.com/1063846385/2ff9b0196f?share=copy).
